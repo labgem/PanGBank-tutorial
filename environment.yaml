@@ -1,0 +1,9 @@
+name: pangbank-tutorial
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - ppanggolin
+  - ncbi-amrfinderplus
+  - jupyter
