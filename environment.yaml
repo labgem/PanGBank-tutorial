@@ -4,6 +4,9 @@ channels:
   - bioconda
 dependencies:
   - python=3.10
-  - ppanggolin
+  - infernal=1
+  - aragorn=1
+  - mmseqs2=15
+  - mafft=7
   - ncbi-amrfinderplus
   - jupyter
