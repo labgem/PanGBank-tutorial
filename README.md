@@ -1,7 +1,7 @@
-> [!WARNING] Work in progress
-> Not ready for use
-
 # PanGBank tutorials
+
+> [!WARNING]
+> Work in progress, Not ready for use
 
 ## Quick start
 
