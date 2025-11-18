@@ -39,9 +39,9 @@ cd tutorials/<tutorial_name> && jupyter-notebook notebook.ipynb
 
 ## Tutorials
 
-### Antibioresistance analysis
+### Antimicrobial resistance analysis
 
-Find [Regions of Genome Plasticity (RGPs)](https://ppanggolin.readthedocs.io/en/latest/user/RGP/rgpAnalyses.html) and [Spots](https://ppanggolin.readthedocs.io/en/latest/user/RGP/rgpAnalyses.html#spot-prediction) with antibioresistance-related annotations.
+Find [Regions of Genome Plasticity (RGPs)](https://ppanggolin.readthedocs.io/en/latest/user/RGP/rgpAnalyses.html) and [Spots](https://ppanggolin.readthedocs.io/en/latest/user/RGP/rgpAnalyses.html#spot-prediction) with AMR-related annotations.
 
 
 |name|description|notebook|
