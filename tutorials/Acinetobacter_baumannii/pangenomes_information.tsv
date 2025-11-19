@@ -1,0 +1,2 @@
+collection	release_version	name	taxonomy	genome_count	gene_count	family_count	edge_count	persistent_family_count	shell_family_count	cloud_family_count	partition_count	rgp_count	spot_count	module_count
+GTDB_refseq	1.0.0	s__Acinetobacter baumannii	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Acinetobacter;s__Acinetobacter baumannii	2002	7350140	48981	77592	2558	5264	41159	3	104402	683	1230

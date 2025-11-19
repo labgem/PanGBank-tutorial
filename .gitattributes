@@ -1,0 +1,16 @@
+tutorials/Acinetobacter_baumannii/ppanggolin_output/ filter=lfs diff=lfs merge=lfs -text
+tutorials/Acinetobacter_baumannii/ppanggolin_genome_output/ filter=lfs diff=lfs merge=lfs -text
+tutorials/Acinetobacter_baumannii/rgp_cluster/ filter=lfs diff=lfs merge=lfs -text
+tutorials/Acinetobacter_baumannii/rgp_cluster/rgp_cluster.graphml filter=lfs diff=lfs merge=lfs -text
+tutorials/Acinetobacter_baumannii/ppanggolin_output/mean_persistent_duplication.tsv filter=lfs diff=lfs merge=lfs -text
+tutorials/Acinetobacter_baumannii/ppanggolin_output/modules_in_genomes.tsv filter=lfs diff=lfs merge=lfs -text
+tutorials/Acinetobacter_baumannii/ppanggolin_output/modules_summary.tsv filter=lfs diff=lfs merge=lfs -text
+tutorials/Acinetobacter_baumannii/ppanggolin_output/regions_of_genomic_plasticity.tsv filter=lfs diff=lfs merge=lfs -text
+tutorials/Acinetobacter_baumannii/ppanggolin_output/functional_modules.tsv filter=lfs diff=lfs merge=lfs -text
+tutorials/Acinetobacter_baumannii/ppanggolin_output/gene_families.tsv filter=lfs diff=lfs merge=lfs -text
+tutorials/Acinetobacter_baumannii/ppanggolin_output/genomes_statistics.tsv filter=lfs diff=lfs merge=lfs -text
+tutorials/Acinetobacter_baumannii/ppanggolin_output/modules_RGP_lists.tsv filter=lfs diff=lfs merge=lfs -text
+tutorials/Acinetobacter_baumannii/ppanggolin_output/modules_spots.tsv filter=lfs diff=lfs merge=lfs -text
+tutorials/Acinetobacter_baumannii/ppanggolin_output/rgp_families.tsv filter=lfs diff=lfs merge=lfs -text
+tutorials/Acinetobacter_baumannii/ppanggolin_output/spots.tsv filter=lfs diff=lfs merge=lfs -text
+tutorials/Acinetobacter_baumannii/ppanggolin_output/summarize_spots.tsv filter=lfs diff=lfs merge=lfs -text
