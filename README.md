@@ -47,9 +47,8 @@ Find [Regions of Genome Plasticity (RGPs)](https://ppanggolin.readthedocs.io/en/
 
 |name|description|notebook|
 |---|---|---|
-|*Acinetobacter baumannii*|Downstream analysis based on pre-computed [PPanGGOLiN](https://github.com/labgem/PPanGGOLiN) outputs.|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/labgem/PanGBank-tutorial/blob/main/tutorials/Acinetobacter_baumannii/notebook.ipynb)|
-|*Escherichia_coli_F*|End-to-end tutorials using a small pangenome|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/labgem/PanGBank-tutorial/blob/main/tutorials/Escherichia_coli_F/notebook.ipynb)|
-
+|*Acinetobacter_baumannii*|Downstream analysis based on pre-computed [PPanGGOLiN](https://github.com/labgem/PPanGGOLiN) outputs.|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/labgem/PanGBank-tutorial/blob/main/tutorials/Acinetobacter_baumannii/notebook.ipynb)|
+|*Acinetobacter_nosocomialis*|End-to-end tutorials using a small pangenome|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/labgem/PanGBank-tutorial/blob/main/tutorials/Acinetobacter_nosocomialis/notebook.ipynb)|
 
 
 
