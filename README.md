@@ -51,6 +51,8 @@ Find [Regions of Genome Plasticity (RGPs)](https://ppanggolin.readthedocs.io/en/
 |*Acinetobacter_nosocomialis*|End-to-end tutorials using a small pangenome|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/labgem/PanGBank-tutorial/blob/main/tutorials/Acinetobacter_nosocomialis/notebook.ipynb)|
 
 
+### Genome Projection
 
-
-
+|name|description|notebook|
+|---|---|---|
+|*Projection*|Augment a pangenome with AMR annotations and then project a new genome on the annotated pangenome| |
