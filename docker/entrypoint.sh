@@ -21,7 +21,7 @@ echo "Launching Jupyter Lab in: $TUTORIAL_DIR"
 
 cd "$TUTORIAL_DIR"
 
-jupyter lab \
+exec jupyter lab \
     --NotebookApp.default_url="/lab/tree/notebook.ipynb" \
     --ip=0.0.0.0 \
     --port=8888 \

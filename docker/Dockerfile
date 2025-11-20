@@ -6,13 +6,14 @@ LABEL org.opencontainers.image.source=https://github.com/labgem/PanGBank-tutoria
 
 USER root
 
-RUN apt-get update && apt-get install -y git tini gcc && apt-get clean
+RUN apt-get update && apt-get install -y git git-lfs tini gcc && apt-get clean
 RUN git clone https://github.com/labgem/PanGBank-tutorial.git
+RUN cd PanGBank-tutorial && git lfs pull
 
 RUN micromamba install -y -n base -f PanGBank-tutorial/environment.yaml && \
     micromamba clean --all --yes
 
-RUN micromamba run -n base pip install jupyterlab pangbank-cli
+RUN micromamba run -n base pip install jupyterlab pangbank-cli pyvis networkx pygenomeviz
 RUN micromamba run -n base pip install git+https://github.com/labgem/PPanGGOLiN.git@output_rgp_to_fams
 
 COPY entrypoint.sh /usr/local/bin/pangbank-tuto
