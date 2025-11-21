@@ -21,13 +21,20 @@ Then a `jupyterlab` instance is available at [`http://localhost:8888`](http://lo
 
 ### Running locally with `conda`
 
+> [!WARNING]
+> Cloning the repository requires git-lfs.
+> - deb: `apt install git-lfs`
+> - rmp: `dnf install git-lfs`
+
 **Install the conda environment**
 ```bash
 git clone https://github.com/labgem/PanGBank-tutorial.git
 cd PanGBank-tutorial
 conda create env -f environment.yaml
 conda activate pangbank-tutorial
+pip install pangbank-cli
 ```
+
 
 Then run `jupyter-notebook` in the tutorial directory
 ```bash
