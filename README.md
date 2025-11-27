@@ -4,7 +4,7 @@
 
 ### Running tutorials on Google Colab
 
-All tutorials are available on Google Colab.
+All tutorials are available on Google Colab, see the [Tutorials](#tutorials) section.
 
 ### Running locally with `docker`
 
