@@ -1,8 +1,5 @@
 # PanGBank tutorials
 
-> [!WARNING]
-> Work in progress, Not ready for use
-
 ## Quick start
 
 ### Running tutorials on Google Colab
