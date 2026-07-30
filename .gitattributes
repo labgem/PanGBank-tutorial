@@ -17,3 +17,6 @@ tutorials/Acinetobacter_baumannii/ppanggolin_output/summarize_spots.tsv filter=l
 tutorials/article_use_case/ppanggolin_output/** filter=lfs diff=lfs merge=lfs -text
 tutorials/article_use_case/ppanggolin_genome_output/** filter=lfs diff=lfs merge=lfs -text
 tutorials/article_use_case/projection_output/** filter=lfs diff=lfs merge=lfs -text
+tutorials/article_use_case/rgp_cluster/rgp_cluster.graphml filter=lfs diff=lfs merge=lfs -text
+tutorials/article_use_case/rgp_cluster/rgp_cluster.tsv filter=lfs diff=lfs merge=lfs -text
+tutorials/article_use_case/ppanggolin_genome_output/proksee/GCF_000069245.1.json filter=lfs diff=lfs merge=lfs -text
