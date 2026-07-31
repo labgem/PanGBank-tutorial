@@ -29,7 +29,7 @@ git clone https://github.com/labgem/PanGBank-tutorial.git
 cd PanGBank-tutorial
 conda create env -f environment.yaml
 conda activate pangbank-tutorial
-pip install pangbank-cli
+pip install pangbank-cli pangbank-api[sdk]==0.5.0 plotly>=6.1.1 kaleido fa2
 ```
 
 
@@ -43,7 +43,9 @@ cd tutorials/<tutorial_name> && jupyter-notebook notebook.ipynb
 
 
 ## Tutorials
-
+The most complete tutorial is the use case presented in the PanGBank paper. You can run it:
+- **Locally:** `docker run -p 8888:8888 ghcr.io/labgem/pangbank-tutorial:latest pangbank-tuto article_use_case`
+- **Google Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/labgem/PanGBank-tutorial/blob/main/tutorials/article_use_case/notebook.ipynb)
 ### Antimicrobial resistance analysis
 
 Find [Regions of Genome Plasticity (RGPs)](https://ppanggolin.readthedocs.io/en/latest/user/RGP/rgpAnalyses.html) and [Spots](https://ppanggolin.readthedocs.io/en/latest/user/RGP/rgpAnalyses.html#spot-prediction) with AMR-related annotations.
@@ -60,3 +62,5 @@ Find [Regions of Genome Plasticity (RGPs)](https://ppanggolin.readthedocs.io/en/
 |name|description|notebook|
 |---|---|---|
 |*Projection*|Augment a pangenome with AMR annotations and then project a new genome on the annotated pangenome|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/labgem/PanGBank-tutorial/blob/main/tutorials/Projection/notebook.ipynb)|
+
+
