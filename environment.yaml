@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - python=3.12
+  - python=3.10
   - ppanggolin=2.3.0
   - pygenomeviz
   - pyvis
