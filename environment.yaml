@@ -10,5 +10,5 @@ dependencies:
   - ncbi-amrfinderplus
   - jupyter
   - fa2
-  - kaleido>=1.3.0
+  - python-kaleido>=1.3.0
   - plotly>=6.1.1
