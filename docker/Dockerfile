@@ -13,7 +13,7 @@ RUN cd PanGBank-tutorial && git lfs pull
 RUN micromamba install -y -n base -f PanGBank-tutorial/environment.yaml && \
     micromamba clean --all --yes
 
-RUN micromamba run -n base pip install jupyterlab pangbank-cli
+RUN micromamba run -n base pip install jupyterlab pangbank-cli pangbank-api[sdk]==0.5.0
 
 COPY entrypoint.sh /usr/local/bin/pangbank-tuto
 RUN chmod +x /usr/local/bin/pangbank-tuto
