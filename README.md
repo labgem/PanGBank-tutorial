@@ -1,24 +1,31 @@
 # PanGBank tutorials
 
+The most complete tutorial is the use case presented in the PanGBank paper.
+
 ## Quick start
 
 ### Running tutorials on Google Colab
 
-All tutorials are available on Google Colab, see the [Tutorials](#tutorials) section.
+<!-- All tutorials are available on Google Colab, see the [Tutorials](#tutorials) section. -->
+
+**Google Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/labgem/PanGBank-tutorial/blob/main/tutorials/article_use_case/notebook.ipynb)
+
+It open the notebook into a google collaboratory. 
+
 
 ### Running locally with `docker`
 
 A self-contained docker is available to run the tutorials
 
 ```bash
-docker run -p 8888:8888 ghcr.io/labgem/pangbank-tutorial:latest pangbank-tuto <tutorial_name>
+docker run -p 8888:8888 ghcr.io/labgem/pangbank-tutorial:latest pangbank-tuto article_use_case
 ```
 
 Then a `jupyterlab` instance is available at [`http://localhost:8888`](http://localhost:8888).
 
 ### Running locally with `conda`
 
-> [!WARNING]
+> [!NOTE]
 > Cloning the repository requires git-lfs.
 > - deb: `apt install git-lfs`
 > - rmp: `dnf install git-lfs`
@@ -35,18 +42,20 @@ pip install pangbank-cli pangbank-api[sdk]==0.5.0 plotly>=6.1.1 kaleido fa2
 
 Then run `jupyter-notebook` in the tutorial directory
 ```bash
-cd tutorials/<tutorial_name> && jupyter-notebook notebook.ipynb
+cd tutorials/article_use_case/ && jupyter-notebook notebook.ipynb
 ```
 
-> [!WARNING]
-> The notebook code expects the current working directory to be the one containing the notebook `notebook.ipynb`. Be sure to launch Jupyter in the correct directory.
+> [!NOTE]
+> The notebook code expects the current working directory to be the `tutorials/article_use_case/`. Be sure to launch Jupyter in the correct directory.
 
 
-## Tutorials
+<!-- ## Tutorials
 The most complete tutorial is the use case presented in the PanGBank paper. You can run it:
 - **Locally:** `docker run -p 8888:8888 ghcr.io/labgem/pangbank-tutorial:latest pangbank-tuto article_use_case`
 - **Google Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/labgem/PanGBank-tutorial/blob/main/tutorials/article_use_case/notebook.ipynb)
-- 
+ -->
+
+<!-- - 
 ### Antimicrobial resistance analysis
 
 Find [Regions of Genome Plasticity (RGPs)](https://ppanggolin.readthedocs.io/en/latest/user/RGP/rgpAnalyses.html) and [Spots](https://ppanggolin.readthedocs.io/en/latest/user/RGP/rgpAnalyses.html#spot-prediction) with AMR-related annotations.
@@ -63,5 +72,5 @@ Find [Regions of Genome Plasticity (RGPs)](https://ppanggolin.readthedocs.io/en/
 |name|description|notebook|
 |---|---|---|
 |*Projection*|Augment a pangenome with AMR annotations and then project a new genome on the annotated pangenome|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/labgem/PanGBank-tutorial/blob/main/tutorials/Projection/notebook.ipynb)|
-
+ -->
 
