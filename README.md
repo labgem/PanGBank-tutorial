@@ -2,7 +2,8 @@
 
 This repository contains runnable tutorials for [**PanGBank**](https://pangbank.genoscope.cns.fr/), a web-based platform for exploring, analyzing, and downloading pangenomes built with [PPanGGOLiN](https://github.com/labgem/PPanGGOLiN).
 
-These notebooks walk through real analyses on top of that foundation — from AMR gene distribution to genome projection — so you can see PanGBank in action and adapt it to your own data.
+These notebooks walk through real analyses, from AMR gene distribution to genome projection, so you can see PanGBank in action and adapt it to your own data.
+
 
 ## Quick start
 
@@ -51,7 +52,7 @@ cd tutorials/article_use_case/ && jupyter-notebook notebook.ipynb
 
 Shorter, standalone notebooks covering focused analyses — several of these were used to build the paper use case above.
 
-**Antimicrobial resistance analyses** — find [Regions of Genome Plasticity (RGPs)](https://ppanggolin.readthedocs.io/en/latest/user/RGP/rgpAnalyses.html) and [Spots](https://ppanggolin.readthedocs.io/en/latest/user/RGP/rgpAnalyses.html#spot-prediction) with AMR-related annotations.
+**Antimicrobial resistance analyses**: find [Regions of Genome Plasticity (RGPs)](https://ppanggolin.readthedocs.io/en/latest/user/RGP/rgpAnalyses.html) and [Spots](https://ppanggolin.readthedocs.io/en/latest/user/RGP/rgpAnalyses.html#spot-prediction) with AMR-related annotations.
 
 | name | description | notebook |
 |---|---|---|
