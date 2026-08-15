@@ -5,13 +5,21 @@ This repository contains runnable tutorials for [**PanGBank**](https://pangbank.
 These notebooks walk through real analyses, from AMR gene distribution to genome projection, so you can see PanGBank in action and adapt it to your own data.
 
 
-## Quick start
+## PanGBank article use case
 
-The best place to start is the **paper use case**: the complete, end-to-end workflow used in the PanGBank publication, from a pre-computed pangenome to AMR gene analysis and genome projection.
+The best place to start is the **paper use case**, a complete end-to-end workflow used in the PanGBank publication:
 
-**Google Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/labgem/PanGBank-tutorial/blob/main/tutorials/article_use_case/notebook.ipynb)
+> **PanGBank: a large-scale resource of precomputed microbial pangenomes built with PPanGGOLiN**
+> Mainguy J *et al.* (2026)
+> *bioRxiv.*
+> doi: [10.64898/2026.08.05.742796](https://doi.org/10.64898/2026.08.05.742796)
 
-Opens the notebook directly in Google Colaboratory — no installation required.
+### Running locally with `Google Colab`
+
+Open the notebook directly in Google Colaboratory — no installation required:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/labgem/PanGBank-tutorial/blob/main/tutorials/article_use_case/notebook.ipynb)
+
 
 ### Running locally with `docker`
 
