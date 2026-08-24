@@ -14,6 +14,15 @@ The best place to start is the **paper use case**, a complete end-to-end workflo
 > *bioRxiv.*
 > doi: [10.64898/2026.08.05.742796](https://doi.org/10.64898/2026.08.05.742796)
 
+### Precomputed data
+
+The paper use case relies on precomputed data that are hosted separately from this repository. The data are automatically downloaded when running the notebook.
+
+The dataset is available from the [Zenodo archive](https://zenodo.org/records/22081221).
+
+> **Note:** The precomputed data are not stored in this GitHub repository and do not need to be downloaded manually when using the notebook.
+
+
 ### Running locally with `Google Colab`
 
 Open the notebook directly in Google Colaboratory — no installation required:
@@ -31,12 +40,6 @@ docker run -p 8888:8888 ghcr.io/labgem/pangbank-tutorial:latest pangbank-tuto ar
 
 A `jupyterlab` instance will then be available at [`http://localhost:8888`](http://localhost:8888).
 
-### Running locally with `conda`
-
-> [!NOTE]
-> Cloning the repository requires git-lfs.
-> - deb: `apt install git-lfs`
-> - rpm: `dnf install git-lfs`
 
 **Install the conda environment**
 ```bash
@@ -49,11 +52,8 @@ pip install pangbank-cli pangbank-api[sdk]==0.5.0 plotly>=6.1.1 kaleido fa2
 
 Then run `jupyter-notebook` in the tutorial directory:
 ```bash
-cd tutorials/article_use_case/ && jupyter-notebook notebook.ipynb
+jupyter-notebook tutorials/article_use_case/notebook.ipynb
 ```
-
-> [!NOTE]
-> The notebook code expects the current working directory to be `tutorials/article_use_case/`. Be sure to launch Jupyter from the correct directory.
 
 
 ## Other tutorials
@@ -64,7 +64,6 @@ Shorter, standalone notebooks covering focused analyses — several of these wer
 
 | name | description | notebook |
 |---|---|---|
-| *Acinetobacter_baumannii* | Downstream analysis based on pre-computed [PPanGGOLiN](https://github.com/labgem/PPanGGOLiN) outputs. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/labgem/PanGBank-tutorial/blob/main/tutorials/Acinetobacter_baumannii/notebook.ipynb) |
 | *Acinetobacter_nosocomialis* | End-to-end tutorial using a small pangenome. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/labgem/PanGBank-tutorial/blob/main/tutorials/Acinetobacter_nosocomialis/notebook.ipynb) |
 
 **Genome Projection**
