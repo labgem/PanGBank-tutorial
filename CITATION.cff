@@ -11,18 +11,18 @@ authors:
 - given-names: Jean
   family-names: Mainguy
   orcid: "https://orcid.org/0009-0006-9160-9744"
-- given-names: Guillaume
-  family-names: Gautreau
-  orcid: "https://orcid.org/0000-0002-0970-9361"
 - given-names: Téo
   family-names: Lemane
   orcid: "https://orcid.org/0000-0002-7210-3178"
-- given-names: David
-  family-names: Vallenet
-  orcid: "https://orcid.org/0000-0001-6648-0332"
+- given-names: Guillaume
+  family-names: Gautreau
+  orcid: "https://orcid.org/0000-0002-0970-9361"
 - given-names: Alexandra
   family-names: Calteau
   orcid: "https://orcid.org/0000-0002-5871-9347"
+- given-names: David
+  family-names: Vallenet
+  orcid: "https://orcid.org/0000-0001-6648-0332"
 
 repository-code: "https://github.com/labgem/PanGBank-tutorial"
 
