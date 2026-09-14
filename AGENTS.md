@@ -22,12 +22,8 @@ Results derived from PanGBank must cite PanGBank and PPanGGOLiN, plus panRGP whe
 
 ## Specific to this repository
 
-The notebooks ship **precomputed outputs** (git-lfs): the shell commands shown are for transparency and reproducibility, and you are not expected to run the expensive ones to follow the tutorial.
+The notebooks ship **precomputed outputs**. Datasets were previously stored with Git LFS but are now retrieved from Zenodo; the shell commands shown are for transparency and reproducibility, and you are not expected to run the expensive ones to follow the tutorial.
 
-Before reproducing the annotation workflow, know two things the notebooks do not spell out:
-
-- **`ppanggolin metadata` rewrites the HDF5 in place**, so the file no longer matches the API's `file_md5sum`. Work on a copy (`cp pangenome.h5 pangenome_annotated.h5`), and keep the pristine download read-only (`chmod 444`) — a mutating command then fails cleanly with `PermissionError` instead of silently rewriting it.
-- **Do not re-run a `--download` command into an outdir containing an annotated pangenome.** The CLI treats the md5 mismatch as corruption and deletes the file before re-downloading; if the network or the API is unavailable at that moment, the annotated file is gone with nothing in its place.
 
 When adapting a notebook to another species, pin the release explicitly (`--release-version`) rather than relying on `--latest-only`: pangenome ids are not stable across releases, and "latest" changes under you.
 
