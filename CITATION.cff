@@ -1,0 +1,72 @@
+cff-version: 1.2.0
+
+message: "If you use the PanGBank tutorials in your work, please cite this repository and the PanGBank publication."
+
+title: "PanGBank tutorials"
+
+type: software
+
+authors:
+
+- given-names: Jean
+  family-names: Mainguy
+  orcid: "https://orcid.org/0009-0006-9160-9744"
+- given-names: Guillaume
+  family-names: Gautreau
+  orcid: "https://orcid.org/0000-0002-0970-9361"
+- given-names: Téo
+  family-names: Lemane
+  orcid: "https://orcid.org/0000-0002-7210-3178"
+- given-names: David
+  family-names: Vallenet
+  orcid: "https://orcid.org/0000-0001-6648-0332"
+- given-names: Alexandra
+  family-names: Calteau
+  orcid: "https://orcid.org/0000-0002-5871-9347"
+
+repository-code: "https://github.com/labgem/PanGBank-tutorial"
+
+url: "https://github.com/labgem/PanGBank-tutorial"
+
+license: "CECILL-2.1"
+
+keywords:
+
+- PanGBank
+- pangenome
+- microbial genomics
+- bioinformatics
+- tutorials
+- Jupyter
+- PPanGGOLiN
+
+abstract: >
+  Runnable tutorials for PanGBank, a web-based platform for exploring,
+  analyzing, and downloading precomputed microbial pangenomes built with
+  PPanGGOLiN. The repository contains end-to-end and focused tutorials
+  covering analyses such as antimicrobial resistance gene distribution,
+  Regions of Genome Plasticity, Spots, and genome projection.
+
+references:
+
+- type: article
+  title: "PanGBank: a large-scale resource of precomputed microbial pangenomes built with PPanGGOLiN"
+  authors:
+  - given-names: Jean
+    family-names: Mainguy
+  - given-names: Téo
+    family-names: Lemane
+  - given-names: Adelme
+    family-names: Bazin
+  - given-names: Jérôme
+    family-names: Arnoux
+  - given-names: Guillaume
+    family-names: Gautreau
+  - given-names: Claudine
+    family-names: Médigue
+  - given-names: Alexandra
+    family-names: Calteau
+  - given-names: David
+    family-names: Vallenet
+  year: 2026
+  doi: "10.64898/2026.08.05.742796"
