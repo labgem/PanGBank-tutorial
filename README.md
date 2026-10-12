@@ -11,8 +11,8 @@ The best place to start is the **paper use case**, a complete end-to-end workflo
 
 > **PanGBank: a large-scale resource of precomputed microbial pangenomes built with PPanGGOLiN**
 > Mainguy J *et al.* (2026)
-> *bioRxiv.*
-> doi: [10.64898/2026.08.05.742796](https://doi.org/10.64898/2026.08.05.742796)
+> *Nucleic Acids Research, gkag948.*
+> doi: [10.1093/nar/gkag948](https://doi.org/10.1093/nar/gkag948)
 
 ### Precomputed data
 
